@@ -49,20 +49,16 @@
 </head>
 <body>
 <%
-		JspWriter pw = out;
-	
-		
-		String us1=request.getParameter("rn");
-		
-	%>
+    String us1 = request.getParameter("rg");
+    request.setAttribute("us1", us1); // Set us1 in request scope for EL
+%>
 
 <div class="container">
     <h2>Bapatla Engineering College</h2>
     <h4>IIIrd Year B.Tech IInd Sem (Autonomous) Regular Results [R20]</h4>
 
     <div class="student-details">
-        <p>Regd No: <strong><c:out value="${us1}"/> </strong></p>
-        
+        <p>Regd No: <strong><%= us1 %></strong></p>
     </div>
 
     <table>
