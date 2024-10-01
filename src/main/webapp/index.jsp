@@ -38,7 +38,7 @@
             <h4>IIIrd Year B.Tech IInd Sem Regular Results</h4>
             <h5>Enter Your Hall Ticket Number:</h5>
             <form action="results.jsp" method="post">
-                <input type="text" name="rg" placeholder="Enter Hall Ticket" required><br>
+                <input type="text" name="rg" placeholder="Enter Registration No" required><br>
                 <input type="submit" value="Submit">
             </form>
         </div>
