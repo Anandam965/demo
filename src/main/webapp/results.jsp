@@ -48,16 +48,21 @@
     </style>
 </head>
 <body>
-
+<%
+		JspWriter pw = out;
+	
+		
+		String us1=request.getParameter("rn");
+		
+	%>
 
 <div class="container">
     <h2>Bapatla Engineering College</h2>
     <h4>IIIrd Year B.Tech IInd Sem (Autonomous) Regular Results [R20]</h4>
 
     <div class="student-details">
-        <p>Regd No: <strong>L22ACS598</strong></p>
-        <p>Name: <strong>Gatram Narendra</strong></p>
-        <p>Father's Name: <strong>Siva Rama Krishna</strong></p>
+        <p>Regd No: <strong><c:out value="${us1}"/> </strong></p>
+        
     </div>
 
     <table>
