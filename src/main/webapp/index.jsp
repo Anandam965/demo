@@ -34,7 +34,7 @@
 
     <div class="container">
         <div class="form-box">
-            <h2>Bapatla Engineering College</h2>
+            <h2>*** Engineering College</h2>
             <h4>IIIrd Year B.Tech IInd Sem Regular Results</h4>
             <h5>Enter Your Hall Ticket Number:</h5>
             <form action="results.jsp" method="post">
