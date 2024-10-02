@@ -54,7 +54,7 @@
 %>
 
 <div class="container">
-    <h2>Bapatla Engineering College</h2>
+    <h2>*** Engineering College</h2>
     <h4>Ist Year B.Tech IInd Sem (Autonomous) Regular Results [R20]</h4>
 
     <div class="student-details">
